@@ -2876,6 +2876,12 @@
 				color: #555;
 			}
 
+			.wrapper.style1 h1 {
+				font-size: 2.5em;
+				text-align: center;
+				margin-bottom: 2em;
+			}
+
 			.wrapper.style1 blockquote {
 				border-left-color: rgba(144, 144, 144, 0.25);
 			}
