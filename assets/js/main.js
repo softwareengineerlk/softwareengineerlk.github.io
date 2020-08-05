@@ -56,3 +56,9 @@
 	});
 
 })(jQuery);
+
+// ----------
+
+let toggleJobPortal = () => {
+	$('#jobPortal').toggle();
+}

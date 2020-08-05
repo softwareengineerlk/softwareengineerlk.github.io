@@ -106,11 +106,47 @@
                     <p>coming soon...</p>
                 </div>
             </article>
-            <article class="feature right">
+            <article class="feature right" style="margin-bottom:0px">
                 <span class="image"><img src="" alt="" /></span>
                 <div class="content">
                     <h2>CHAPTER 04: Landing your dream job</h2>
-                    <p>Coming soon...</p>
+                    <p>Coming soon...<br/>
+                        <div style="text-align: right;">
+                            <input type="checkbox" id="copy" name="copy" onclick="toggleJobPortal()">
+                            <label for="copy">I am ready!</label>
+                        </div>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div id="jobPortal" style="display: none;">
+                    <table class="alt" style="width: 100%;">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th width="80px"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>99X Technology</td>
+                                <td><a class="button" target="_blank" href="https://www.99xtechnology.com/careers/">Apply</a></td>
+                            </tr>
+                            <tr>
+                                <td>Syscolabs</td>
+                                <td><a class="button" target="_blank" href="https://syscolabs.lk/careers/">Apply</a></td>
+                            </tr>
+                            <tr>
+                                <td>WSO2</td>
+                                <td><a class="button" target="_blank" href="https://wso2.com/careers/">Apply</a></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td style="font-size: 12px;"><smal>Note: This list is sorted alphabetically</smal></td>
+                            </tr>
+                        </tfoot>
+                    </table>
                 </div>
             </article>
         </div>
