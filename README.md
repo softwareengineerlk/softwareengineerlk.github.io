@@ -13,3 +13,7 @@ Official website source code of [softwareengineer.lk](https://softwareengineer.l
 ## Contribution
 
 If you would like to contribute softwaregnineer.lk you can open issues and pull requests in our [repositiories](https://github.com/softwareengineerlk).
+
+## License
+
+MIT for the website's source
